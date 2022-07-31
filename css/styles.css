@@ -13,18 +13,17 @@
 
 body{
     background-color: var(--Cream);
-    min-width: 100vh;
+    height: 100vh;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
     
 }
 
 .container{
-    margin: 30px;
+    margin: auto;
+   
 }
 
 .image-desktop{
@@ -121,9 +120,6 @@ article img{
     border-radius: 8px 8px 0 0;
 }
 
-/* footer */
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
 
 @media(min-width:768px){
    body{
